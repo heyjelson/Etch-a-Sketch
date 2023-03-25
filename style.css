@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #c2fdfd;
+    margin: 12px 0;
+}
+
+.header_title {
+    margin: 25px;
+    color: #0174a1;
+}
+
+.btn {
+    margin-left: 25px;
+    margin-top: 22px;
+    padding: 8px;
+    background-color: #0174a1;
+    color:#ffffff;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+.grid_container {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    background-color: #ffffff;
+    font-size: 0;
+    border: none;
+    overflow: hidden;
+}
+
