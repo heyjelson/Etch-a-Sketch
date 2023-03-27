@@ -1,3 +1,5 @@
+/* Styling HTML elements */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,15 +15,20 @@ body {
     color: #0174a1;
 }
 
-.btn {
+.default, .custom, .reset  {
     margin-left: 25px;
     margin-top: 22px;
-    padding: 8px;
+    padding: 8px 25px;
     background-color: #0174a1;
     color:#ffffff;
     font-weight: 700;
     border: none;
     border-radius: 5px;
+}
+
+.reset {
+    display: block;
+    padding: 8px 48px;
 }
 
 .grid_container {
