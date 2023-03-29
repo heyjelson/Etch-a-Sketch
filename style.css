@@ -15,10 +15,27 @@ body {
     color: #0174a1;
 }
 
+.btn-container {
+    width: 335px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}
+
+.hr-line {
+    border: 1px solid #0174a1;
+    border-radius: 8px;
+    display: inline-block;
+    width: 332px;
+    margin: 12px 0 8px 25px;
+}
+
 .default, .custom, .reset  {
     margin-left: 25px;
     margin-top: 22px;
-    padding: 8px 25px;
+    padding: 8px 15px;
     background-color: #0174a1;
     color:#ffffff;
     font-weight: 700;
@@ -26,9 +43,33 @@ body {
     border-radius: 5px;
 }
 
+.custom {
+    padding: 8px 20px;
+}
+
 .reset {
     display: block;
-    padding: 8px 48px;
+    padding: 8px 128px;
+}
+
+span {
+    font-size: large;
+    color: black;
+}
+
+.r {
+    font-size: large;
+    color: red;
+}
+
+.g {
+    font-size: large;
+    color: green;
+}
+
+.b {
+    font-size: large;
+    color: blue;
 }
 
 .grid_container {
@@ -41,5 +82,15 @@ body {
     font-size: 0;
     border: none;
     overflow: hidden;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #0174a1;
+    text-align: center;
+    padding: 8px;
 }
 
